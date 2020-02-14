@@ -3,7 +3,7 @@ import Axios from "axios";
 
 import Card from "./Card";
 
-import "../Styles/search-bar.css";
+import "../Styles/search-bar.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 

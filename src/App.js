@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 
 import Hero from "./Components/Hero";
+import SearchBar from "./Components/SearchBar";
 
 import "./Styles/app.scss";
+
 
 class App extends Component {
     constructor() {
@@ -19,6 +21,7 @@ class App extends Component {
           return (
               <div className="container">
                   <Hero />
+                  <SearchBar />
               </div>
           );
       }
